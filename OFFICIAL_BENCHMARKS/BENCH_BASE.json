@@ -1,0 +1,1512 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "DITTO",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\FACTORY_MANUFACTURING\\DITTO\\UPSTREAM_CLONE",
+    "git": {
+      "head": "0edf69f2e0c00bffacebefa1c4327494edc44ece",
+      "url": "https://github.com/eclipse/ditto",
+      "branch": "master",
+      "committed_at": "2026-10-01T09:26:16+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 7562,
+    "source_files_scanned": 5787,
+    "lines_of_code": 806095,
+    "languages": {
+      ".java": 5677,
+      ".md": 756,
+      ".yml": 244,
+      ".conf": 172,
+      ".xml": 106,
+      ".json": 84,
+      ".html": 84,
+      ".yaml": 76,
+      ".ts": 75,
+      ".png": 62,
+      ".svg": 33,
+      "(none)": 32,
+      ".js": 29,
+      ".jsonld": 18,
+      ".txt": 16
+    }
+  },
+  "licence": {
+    "spdx": "EPL-2.0",
+    "class": "B",
+    "source_file": "LICENSE",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 33,
+    "unique": 31,
+    "by_ecosystem": {
+      "npm": 33
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@popperjs/core",
+        "version": "^2.11.8",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tarekraafat/autocomplete.js",
+        "version": "^10.2.10",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ace-builds",
+        "version": "^1.44.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ace-diff",
+        "version": "4.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bootstrap",
+        "version": "^5.3.8",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bootstrap-icons",
+        "version": "^1.13.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dompurify",
+        "version": "^3.4.15",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "event-source-polyfill",
+        "version": "^1.0.31",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jsonpath-plus",
+        "version": "^10.4.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "oidc-client-ts",
+        "version": "^3.5.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "split.js",
+        "version": "^1.6.5",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/ace",
+        "version": "^0.0.52",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/jest",
+        "version": "^30.0.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "esbuild",
+        "version": "^0.28.2",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "esbuild-sass-plugin",
+        "version": "^3.7.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^10.10.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-google",
+        "version": "^0.14.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-n",
+        "version": "^18.3.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-promise",
+        "version": "^7.3.0",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^30.5.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest-util",
+        "version": "^30.5.1",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-jest",
+        "version": "^29.4.12",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-node",
+        "version": "^10.9.2",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^6.0.3",
+        "source_file": "ui/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "swagger-cli",
+        "version": "^4.0.4",
+        "source_file": "documentation/src/main/resources/openapi/sources/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eclipse-ditto/ditto-javascript-client-node",
+        "version": "^3.9.0-M1.1",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "artillery",
+        "version": "^2.0.27",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "defu",
+        "version": "^6.1.5",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "kafkajs",
+        "version": "^2.2.4",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "yaml",
+        "version": "^2.8.3",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^20.0.0",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ts-node",
+        "version": "^10.9.0",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.0.0",
+        "source_file": "benchmark-tool/artillery-test/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 5891,
+    "files_with_findings": 5780,
+    "severity": {
+      "high": 35,
+      "medium": 7,
+      "low": 5849
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "documentation/src/main/resources/_plugins/to_gravatar.rb",
+            "line": 13,
+            "cwe": "CWE-327",
+            "snippet": "Digest::MD5.hexdigest(email_address)"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/TestConstants.java",
+            "line": 511,
+            "cwe": "CWE-327",
+            "snippet": "\"MD5:69:d8:52:ef:3d:df:c5:d1:10:fb:d4:3b:66:00:a8:f5\";"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/tunnel/FingerprintVerifierTest.java",
+            "line": 34,
+            "cwe": "CWE-327",
+            "snippet": "private static final String MD5 = \"MD5\";"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/persistence/JsonFieldsEncryptorTest.java",
+            "line": 260,
+            "cwe": "CWE-327",
+            "snippet": "\"MD5:e0:3a:34:1c:68:ed:c6:bc:7c:ca:a8:67:c7:45:2b:19\""
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/mapping/javascript/JavaScriptMessageMapperRhinoTest.java",
+            "line": 623,
+            "cwe": "CWE-327",
+            "snippet": "\"                        \\\"MD5\\\":\\\"my-md5-checksum\\\"\\n\" +"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 23,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "ui/modules/utils/basicFilters.ts",
+            "line": 58,
+            "cwe": "CWE-95",
+            "snippet": "const result = /^([^:~]+)(:|~)?(.*)/gm.exec(input.replace(/\\s/g, ''));"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/test/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/JsonInternalVisitorTest.java",
+            "line": 79,
+            "cwe": "CWE-95",
+            "snippet": "assertThat(eval(jsonObject)).isEqualTo(jsonObject.toString());"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonArrayDiff.java",
+            "line": 63,
+            "cwe": "CWE-95",
+            "snippet": "final int replacementSize = bsonSizeVisitor.eval(subtrahend);"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonDiff.java",
+            "line": 86,
+            "cwe": "CWE-95",
+            "snippet": "return new BsonDiffVisitor(recurseIntoArrays, maxWireVersion).eval(minuend).apply(subtrahend);"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonDiffVisitor.java",
+            "line": 46,
+            "cwe": "CWE-95",
+            "snippet": "final int replacementSize = bsonSizeVisitor.eval(value);"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonSizeVisitor.java",
+            "line": 61,
+            "cwe": "CWE-95",
+            "snippet": ".mapToInt(entry -> entry.getKey().getBytes(StandardCharsets.UTF_8).length + eval(entry.getValue()))"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonValueVisitor.java",
+            "line": 31,
+            "cwe": "CWE-95",
+            "snippet": "default T eval(final BsonValue value) {"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/IndexLengthRestrictionEnforcerVisitor.java",
+            "line": 42,
+            "cwe": "CWE-95",
+            "snippet": "return new IndexLengthRestrictionEnforcerVisitor(thingId, maxArraySize).eval(thingJson)"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/JsonInternalVisitor.java",
+            "line": 40,
+            "cwe": "CWE-95",
+            "snippet": "default T eval(final JsonValue value) {"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/JsonObjectVisitor.java",
+            "line": 40,
+            "cwe": "CWE-95",
+            "snippet": "default Optional<T> eval(final JsonValue value) {"
+          },
+          {
+            "severity": "high",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/JsonToBson.java",
+            "line": 43,
+            "cwe": "CWE-95",
+            "snippet": "return new JsonToBson().eval(jsonValue);"
+          },
+          {
+            "severity": "high",
+            "file": "protocol/src/main/java/org/eclipse/ditto/protocol/adapter/DefaultAdapterResolver.java",
+            "line": 384,
+            "cwe": "CWE-95",
+            "snippet": ".eval(extractEnum);"
+          },
+          {
+            "severity": "high",
+            "file": "internal/utils/test/src/main/java/org/eclipse/ditto/internal/utils/test/docker/ContainerFactory.java",
+            "line": 120,
+            "cwe": "CWE-95",
+            "snippet": "dockerClient.pullImageCmd(imageIdentifier).exec(dockerImagePullHandler);"
+          },
+          {
+            "severity": "high",
+            "file": "documentation/src/main/resources/js/customscripts.js",
+            "line": 4,
+            "cwe": "CWE-78",
+            "snippet": "// you. var h = $(window).height(); console.log (h); if (h > 800) { $( \"#mysidebar\" ).attr(\"class\", \"nav affix\"); }"
+          },
+          {
+            "severity": "high",
+            "file": "documentation/src/main/resources/docson/docson.js",
+            "line": 375,
+            "cwe": "CWE-78",
+            "snippet": "var ref = $(this).attr(\"ref\");"
+          },
+          {
+            "severity": "high",
+            "file": "documentation/src/main/resources/docson/lib/jquery.js",
+            "line": 4,
+            "cwe": "CWE-95",
+            "snippet": "(function(e,t){var n,r,i=typeof t,o=e.location,a=e.document,s=a.documentElement,l=e.jQuery,u=e.$,c={},p=[],f=\"1.10.2\",d=p.concat,h=p.push,g=p.slice,m=p.indexOf,y=c.toString,v=c.has"
+          },
+          {
+            "severity": "high",
+            "file": "documentation/src/main/resources/docson/lib/marked.js",
+            "line": 168,
+            "cwe": "CWE-95",
+            "snippet": "if (cap = this.rules.newline.exec(src)) {"
+          },
+          {
+            "severity": "high",
+            "file": "documentation/src/main/resources/docson/lib/require.js",
+            "line": 36,
+            "cwe": "CWE-95",
+            "snippet": "j.defQueue:R).push([b,c,e])};define.amd={jQuery:!0};j.exec=function(b){return eval(b)};j(s)}})(this);"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/mappingoutcome/MappingOutcome.java",
+            "line": 136,
+            "cwe": "CWE-95",
+            "snippet": "default R eval(final MappingOutcome<T> outcome) {"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/httppush/AwsRequestSigning.java",
+            "line": 177,
+            "cwe": "CWE-89",
+            "snippet": "return X_AMZ_DATE_HEADER + \":\" + X_AMZ_DATE_FORMATTER.format(xAmzDate) + \"\\n\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/httppush/HttpPublisherActor.java",
+            "line": 320,
+            "cwe": "CWE-95",
+            "snippet": "OAuthFlowVisitor.eval(getContext().getSystem(), config, connection);"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/httppush/HttpPushClientActor.java",
+            "line": 190,
+            "cwe": "CWE-95",
+            "snippet": ".via(OAuthFlowVisitor.eval(actorSystem, config, connection))"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/httppush/OAuthFlowVisitor.java",
+            "line": 53,
+            "cwe": "CWE-95",
+            "snippet": "static Flow<Pair<HttpRequest, HttpPushContext>, Pair<HttpRequest, HttpPushContext>, NotUsed> eval("
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 69,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/test/java/org/eclipse/ditto/thingsearch/service/updater/actors/ThingUpdaterTest.java",
+            "line": 180,
+            "cwe": "CWE-",
+            "snippet": "public void updateFromEventWithAck() {"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/test/java/org/eclipse/ditto/thingsearch/service/persistence/write/streaming/EnforcementFlowTest.java",
+            "line": 73,
+            "cwe": "CWE-",
+            "snippet": "import org.junit.FixMethodOrder;"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/test/java/org/eclipse/ditto/thingsearch/service/persistence/write/mapping/BsonDiffVisitorIT.java",
+            "line": 126,
+            "cwe": "CWE-",
+            "snippet": "run(collection.insertOne(toDocument(prevThingDoc)));"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/test/java/org/eclipse/ditto/thingsearch/service/common/config/DefaultPersistenceStreamConfigTest.java",
+            "line": 69,
+            "cwe": "CWE-",
+            "snippet": "softly.assertThat(underTest.getWithAcknowledgementsWriteConcern())"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/updater/actors/ThingUpdater.java",
+            "line": 423,
+            "cwe": "CWE-",
+            "snippet": "? metadata.withAckRecipient(getAckRecipient(sudoUpdateThing.getDittoHeaders()))"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/streaming/MongoSearchUpdaterFlow.java",
+            "line": 64,
+            "cwe": "CWE-",
+            "snippet": "final var writeConcern = persistenceConfig.getWithAcknowledgementsWriteConcern();"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/write/model/Metadata.java",
+            "line": 246,
+            "cwe": "CWE-",
+            "snippet": "public Metadata withAckRecipient(final ActorSelection ackRecipient) {"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/read/expression/visitors/AbstractFieldBsonCreator.java",
+            "line": 106,
+            "cwe": "CWE-",
+            "snippet": "final var grant = toDottedPath(FIELD_POLICY, pointer, FIELD_GRANTED);"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/read/expression/visitors/GetEmptyBsonVisitor.java",
+            "line": 85,
+            "cwe": "CWE-",
+            "snippet": "final String featureIdPath = toDottedPath(FIELD_F_ARRAY, List.of(JsonKey.of(FIELD_FEATURE_ID)));"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/read/expression/visitors/GetExistsBsonVisitor.java",
+            "line": 78,
+            "cwe": "CWE-",
+            "snippet": "return Filters.exists(toDottedPath(FIELD_F_ARRAY, List.of(JsonKey.of(FIELD_FEATURE_ID))));"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/persistence/read/expression/visitors/GetFilterBsonVisitor.java",
+            "line": 127,
+            "cwe": "CWE-",
+            "snippet": "final Bson keyValueFilter = predicateFunction.apply(toDottedPath(FIELD_THING, pointer));"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/common/config/DefaultPersistenceStreamConfig.java",
+            "line": 39,
+            "cwe": "CWE-",
+            "snippet": "private final WriteConcern withAcknowledgementsWriteConcern;"
+          },
+          {
+            "severity": "low",
+            "file": "thingsearch/service/src/main/java/org/eclipse/ditto/thingsearch/service/common/config/PersistenceStreamConfig.java",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "WriteConcern getWithAcknowledgementsWriteConcern();"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/persistence/testhelper/ThingsJournalTestHelper.java",
+            "line": 48,
+            "cwe": "CWE-",
+            "snippet": "private final BiFunction<BsonDocument, Long, J> journalEntryToDomainObject;"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/persistence/testhelper/ThingsSnapshotTestHelper.java",
+            "line": 54,
+            "cwe": "CWE-",
+            "snippet": "private final BiFunction<BsonDocument, Long, S> snapshotToDomainObject;"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/persistence/actors/PersistenceActorTestBase.java",
+            "line": 281,
+            "cwe": "CWE-",
+            "snippet": "public <S extends ThingEvent<?>> Object wrapForPublicationWithAcks(final S message,"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/persistence/actors/ThingPersistenceActorTest.java",
+            "line": 2377,
+            "cwe": "CWE-",
+            "snippet": "public <S extends ThingEvent<?>> Object wrapForPublicationWithAcks(final S message,"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/persistence/actors/ThingPersistenceOperationsActorIT.java",
+            "line": 164,
+            "cwe": "CWE-",
+            "snippet": "public <S extends ThingEvent<?>> Object wrapForPublicationWithAcks(final S message,"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/enforcement/AbstractThingEnforcementTest.java",
+            "line": 140,
+            "cwe": "CWE-",
+            "snippet": "public <S extends ThingEvent<?>> Object wrapForPublicationWithAcks(final S message,"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/test/java/org/eclipse/ditto/things/service/enforcement/TestSetup.java",
+            "line": 117,
+            "cwe": "CWE-",
+            "snippet": "public <S extends ThingCommand<?>> Object wrapForPublicationWithAcks(final S message,"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/main/java/org/eclipse/ditto/things/service/persistence/actors/SupervisorLiveChannelDispatching.java",
+            "line": 174,
+            "cwe": "CWE-",
+            "snippet": "final var publish = pub.wrapForPublicationWithAcks(thingQueryCommand, thingId, THING_COMMAND_ACK_EXTRACTOR);"
+          },
+          {
+            "severity": "low",
+            "file": "things/service/src/main/java/org/eclipse/ditto/things/service/persistence/actors/ThingPersistenceActor.java",
+            "line": 302,
+            "cwe": "CWE-",
+            "snippet": "distributedPub.publishWithAcks(eventToPublish, entityId, ACK_EXTRACTOR, getSelf());"
+          },
+          {
+            "severity": "low",
+            "file": "policies/service/src/test/java/org/eclipse/ditto/policies/service/persistence/testhelper/PoliciesJournalTestHelper.java",
+            "line": 48,
+            "cwe": "CWE-",
+            "snippet": "private final BiFunction<BsonDocument, Long, J> journalEntryToDomainObject;"
+          },
+          {
+            "severity": "low",
+            "file": "policies/service/src/test/java/org/eclipse/ditto/policies/service/persistence/testhelper/PoliciesSnapshotTestHelper.java",
+            "line": 54,
+            "cwe": "CWE-",
+            "snippet": "private final BiFunction<BsonDocument, Long, S> snapshotToDomainObject;"
+          },
+          {
+            "severity": "low",
+            "file": "policies/service/src/test/java/org/eclipse/ditto/policies/service/persistence/actors/PolicyPersistenceActorTest.java",
+            "line": 843,
+            "cwe": "CWE-",
+            "snippet": "verify(policyAnnouncementPub).publishWithAcks(announcementCaptor.capture(), any(), any(), any());"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 4,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/util/config/endpoints/GatewayHttpConfig.java",
+            "line": 196,
+            "cwe": "CWE-942",
+            "snippet": "public boolean isEnableCors() {"
+          },
+          {
+            "severity": "high",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/util/config/endpoints/HttpConfig.java",
+            "line": 78,
+            "cwe": "CWE-942",
+            "snippet": "boolean isEnableCors();"
+          },
+          {
+            "severity": "high",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/endpoints/directives/CorsEnablingDirective.java",
+            "line": 79,
+            "cwe": "CWE-942",
+            "snippet": "if (!httpConfig.isEnableCors()) {"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/model/src/main/java/org/eclipse/ditto/connectivity/model/Connection.java",
+            "line": 350,
+            "cwe": "CWE-1188",
+            "snippet": "* JSON field containing the {@code Connection} trust all certificates."
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "documentation/src/main/resources/_plugins/llms_markdown_generator.rb",
+            "line": 144,
+            "cwe": "CWE-1104",
+            "snippet": "# two digits, e.g. release_notes_394.md == 3.9.4 but release_notes_3812.md =="
+          },
+          {
+            "severity": "low",
+            "file": "documentation/src/main/resources/docson/lib/handlebars.js",
+            "line": 161,
+            "cwe": "CWE-1104",
+            "snippet": "2: '== 1.0.0-rc.3',"
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 9,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "internal/utils/persistence/src/test/java/org/eclipse/ditto/internal/utils/persistence/mongo/MongoClientWrapperTest.java",
+            "line": 46,
+            "cwe": "CWE-798",
+            "snippet": "private static final String KNOWN_PASSWORD = \"thePassword\";"
+          },
+          {
+            "severity": "high",
+            "file": "gateway/service/src/test/java/org/eclipse/ditto/gateway/service/endpoints/directives/RequestLoggingFilterTest.java",
+            "line": 34,
+            "cwe": "CWE-798",
+            "snippet": "private static final String ACCESS_TOKEN = \"access_token\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/validation/ConnectionValidatorTest.java",
+            "line": 378,
+            "cwe": "CWE-798",
+            "snippet": ".clientKey(\"-----BEGIN RSA PRIVATE KEY-----\\nWurst\\n-----END RSA PRIVATE KEY-----\")"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/mqtt/hivemq/client/HiveMqttClientFactoryTest.java",
+            "line": 61,
+            "cwe": "CWE-798",
+            "snippet": "private static final String PASSWORD = \"wine\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/kafka/KafkaAuthenticationSpecificConfigTest.java",
+            "line": 53,
+            "cwe": "CWE-798",
+            "snippet": "private static final String KNOWN_PASSWORD = \"knownPassword\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/amqp/AmqpSpecificConfigTest.java",
+            "line": 72,
+            "cwe": "CWE-798",
+            "snippet": "\"?jms.clientID=CID&jms.username=\" + expectedUsername + \"&jms.password=\" + expectedPassword +\r\n                        \"&failover.startupMaxReconnectAttempts=5&failover.maxReconnect"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/config/DefaultHonoConfigTest.java",
+            "line": 217,
+            "cwe": "CWE-798",
+            "snippet": "final var password = \"PeterParsival\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/amqp/AmqpSpecificConfig.java",
+            "line": 44,
+            "cwe": "CWE-798",
+            "snippet": "private static final String PASSWORD = \"jms.password\";"
+          },
+          {
+            "severity": "high",
+            "file": "connectivity/model/src/test/java/org/eclipse/ditto/connectivity/model/ImmutableSshTunnelTest.java",
+            "line": 35,
+            "cwe": "CWE-798",
+            "snippet": "private static final String PASSWORD = \"Password\";"
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 5777,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "build-images.sh",
+            "line": 12,
+            "cwe": "CWE-319",
+            "snippet": "# http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/test/java/org/eclipse/ditto/wot/validation/CurrentThreadExecutor.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/test/java/org/eclipse/ditto/wot/validation/WotThingModelValidationFeatureLevelTest.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/test/java/org/eclipse/ditto/wot/validation/WotThingModelValidationThingLevelTest.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/DefaultWotThingModelValidation.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/InternalFeatureValidation.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/InternalThingValidation.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/InternalValidation.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/JsonSchemaCacheKey.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/JsonSchemaTools.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/package-info.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/ValidationContext.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/WotThingModelPayloadValidationException.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/WotThingModelValidation.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/config/FeatureValidationConfig.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/config/package-info.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/config/ThingValidationConfig.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/validation/src/main/java/org/eclipse/ditto/wot/validation/config/TmValidationConfig.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/test/java/org/eclipse/ditto/wot/model/AtContextPrefixValidatorTest.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/test/java/org/eclipse/ditto/wot/model/FormElementExpectedResponseTest.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/test/java/org/eclipse/ditto/wot/model/ThingDescriptionTest.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/main/java/org/eclipse/ditto/wot/model/AbstractBaseLink.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/main/java/org/eclipse/ditto/wot/model/AbstractBaseLinkBuilder.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/main/java/org/eclipse/ditto/wot/model/AbstractFormElement.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "wot/model/src/main/java/org/eclipse/ditto/wot/model/AbstractFormElementBuilder.java",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.eclipse.org/legal/epl-2.0"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/endpoints/directives/HttpsEnsuringDirective.java",
+            "line": 141,
+            "cwe": "CWE-601",
+            "snippet": "return redirect(httpsUri, StatusCodes.MOVED_PERMANENTLY);"
+          },
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/artillery-test/http-util.ts",
+            "line": 131,
+            "cwe": "CWE-918",
+            "snippet": "return await fetch(url, {"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 28,
+    "files_with_findings": 28,
+    "severity": {
+      "high": 0,
+      "medium": 26,
+      "low": 2
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 24,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "wot/api/src/main/java/org/eclipse/ditto/wot/api/generator/DefaultWotThingDescriptionGenerator.java",
+            "line": 515,
+            "cwe": "CWE-1336",
+            "snippet": "thingDescriptionBuilder.setAll(toThingDescriptionConfig.getJsonTemplate());"
+          },
+          {
+            "severity": "medium",
+            "file": "wot/api/src/main/java/org/eclipse/ditto/wot/api/config/DefaultToThingDescriptionConfig.java",
+            "line": 83,
+            "cwe": "CWE-1336",
+            "snippet": "public JsonObject getJsonTemplate() {"
+          },
+          {
+            "severity": "medium",
+            "file": "wot/api/src/main/java/org/eclipse/ditto/wot/api/config/ToThingDescriptionConfig.java",
+            "line": 46,
+            "cwe": "CWE-1336",
+            "snippet": "JsonObject getJsonTemplate();"
+          },
+          {
+            "severity": "medium",
+            "file": "ui/modules/operations/piggyback.ts",
+            "line": 93,
+            "cwe": "CWE-1336",
+            "snippet": "export function onInsertTemplate(template) {"
+          },
+          {
+            "severity": "medium",
+            "file": "ui/modules/operations/templates.ts",
+            "line": 97,
+            "cwe": "CWE-1336",
+            "snippet": "async function insertTemplate() {"
+          },
+          {
+            "severity": "medium",
+            "file": "placeholders/src/test/java/org/eclipse/ditto/placeholders/ExpressionResolverTest.java",
+            "line": 108,
+            "cwe": "CWE-1336",
+            "snippet": "public void testEmptyTemplate() {"
+          },
+          {
+            "severity": "medium",
+            "file": "placeholders/src/main/java/org/eclipse/ditto/placeholders/PipelineFunctionFormat.java",
+            "line": 91,
+            "cwe": "CWE-1336",
+            "snippet": "final List<TemplatePart> templateParts = parseTemplate(template);"
+          },
+          {
+            "severity": "medium",
+            "file": "gateway/service/src/test/java/org/eclipse/ditto/gateway/service/util/config/endpoints/DefaultWotDirectoryConfigTest.java",
+            "line": 57,
+            "cwe": "CWE-1336",
+            "snippet": "softly.assertThat(underTest.getJsonTemplate())"
+          },
+          {
+            "severity": "medium",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/util/config/endpoints/DefaultWotDirectoryConfig.java",
+            "line": 69,
+            "cwe": "CWE-1336",
+            "snippet": "public JsonObject getJsonTemplate() {"
+          },
+          {
+            "severity": "medium",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/util/config/endpoints/WotDirectoryConfig.java",
+            "line": 42,
+            "cwe": "CWE-1336",
+            "snippet": "JsonObject getJsonTemplate();"
+          },
+          {
+            "severity": "medium",
+            "file": "gateway/service/src/main/java/org/eclipse/ditto/gateway/service/endpoints/routes/wot/WotDiscoveryThingDirectoryRoute.java",
+            "line": 129,
+            "cwe": "CWE-1336",
+            "snippet": ".setAll(wotDirectoryConfig.getJsonTemplate())"
+          },
+          {
+            "severity": "medium",
+            "file": "documentation/src/main/resources/docson/docson.js",
+            "line": 268,
+            "cwe": "CWE-1336",
+            "snippet": "var ret = new Handlebars.SafeString(boxTemplate(schema));"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/mapping/ImplicitThingCreationMessageMapperTest.java",
+            "line": 276,
+            "cwe": "CWE-1336",
+            "snippet": "public void maliciousHeaderCannotInjectInlinePolicyIntoResolvedTemplate() {"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/validation/AbstractProtocolValidator.java",
+            "line": 193,
+            "cwe": "CWE-1336",
+            "snippet": "-> validateTemplate(value, dittoHeaders, Resolvers.getPlaceholders()));"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/rabbitmq/RabbitMQValidator.java",
+            "line": 61,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(enforcement.getInput(), dittoHeaders, PlaceholderFactory.newHeadersPlaceholder());"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/mqtt/AbstractMqttValidator.java",
+            "line": 112,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(target.getAddress(), dittoHeaders, Resolvers.getPlaceholders());"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/mqtt/Mqtt3Validator.java",
+            "line": 114,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(value, dittoHeaders, Mqtt3HeaderPlaceholder.INSTANCE);"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/kafka/KafkaValidator.java",
+            "line": 108,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(enforcement.getInput(), dittoHeaders, PlaceholderFactory.newHeadersPlaceholder());"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/httppush/HttpPushValidator.java",
+            "line": 109,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(target.getAddress(), dittoHeaders, Resolvers.getPlaceholders());"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/hono/HonoValidator.java",
+            "line": 97,
+            "cwe": "CWE-1336",
+            "snippet": "inputTemplate -> validateTemplate(inputTemplate,"
+          },
+          {
+            "severity": "medium",
+            "file": "connectivity/service/src/main/java/org/eclipse/ditto/connectivity/service/messaging/amqp/AmqpValidator.java",
+            "line": 61,
+            "cwe": "CWE-1336",
+            "snippet": "validateTemplate(enforcement.getInput(), dittoHeaders, PlaceholderFactory.newHeadersPlaceholder());"
+          },
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/test/http-util.js",
+            "line": 246,
+            "cwe": "CWE-1336",
+            "snippet": "'thing': constructThingTemplate()"
+          },
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/artillery-test/http-util.ts",
+            "line": 422,
+            "cwe": "CWE-1336",
+            "snippet": "thing: constructThingTemplate()"
+          },
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/artillery-test/config/test-config.ts",
+            "line": 78,
+            "cwe": "CWE-1336",
+            "snippet": "export function getDeviceIdTemplate(testConfig: TestConfigData): string {"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/artillery-test/cleanup-util.ts",
+            "line": 18,
+            "cwe": "CWE-200",
+            "snippet": "* Log manual cleanup instructions when automated cleanup fails"
+          },
+          {
+            "severity": "medium",
+            "file": "benchmark-tool/artillery-test/test-setup.ts",
+            "line": 17,
+            "cwe": "CWE-200",
+            "snippet": "import { logManualCleanupInstructions } from './cleanup-util';"
+          }
+        ]
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "json/src/test/java/org/eclipse/ditto/json/assertions/DittoJsonAssertions.java",
+            "line": 57,
+            "cwe": "CWE-",
+            "snippet": "* Returns an assert for verifying the given {@link JsonPointer}."
+          },
+          {
+            "severity": "low",
+            "file": "connectivity/service/src/test/java/org/eclipse/ditto/connectivity/service/messaging/tunnel/FingerprintVerifierTest.java",
+            "line": 55,
+            "cwe": "CWE-",
+            "snippet": "assertThat(underTest.verifyServerKey(mockSession, mockAddress, SERVER_PUBLIC_KEY)).isTrue();"
+          }
+        ]
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:dc9bb2c6-0db1-55e7-956d-ce5df2d1bd1d",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:50:29Z",
+      "component": {
+        "type": "application",
+        "name": "DITTO",
+        "version": "0edf69f2e0c0",
+        "bom-ref": "pkg:generic/anticloud/DITTO@0edf69f2e0c0",
+        "purl": "pkg:generic/anticloud/DITTO@0edf69f2e0c0",
+        "licenses": [
+          {
+            "license": {
+              "id": "EPL-2.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "0edf69f2e0c00bffacebefa1c4327494edc44ece"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/eclipse/ditto"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@popperjs/core",
+        "version": "^2.11.8",
+        "purl": "pkg:npm/@popperjs/core@^2.11.8",
+        "bom-ref": "npm/@popperjs/core@^2.11.8"
+      },
+      {
+        "type": "library",
+        "name": "@tarekraafat/autocomplete.js",
+        "version": "^10.2.10",
+        "purl": "pkg:npm/@tarekraafat/autocomplete.js@^10.2.10",
+        "bom-ref": "npm/@tarekraafat/autocomplete.js@^10.2.10"
+      },
+      {
+        "type": "library",
+        "name": "ace-builds",
+        "version": "^1.44.0",
+        "purl": "pkg:npm/ace-builds@^1.44.0",
+        "bom-ref": "npm/ace-builds@^1.44.0"
+      },
+      {
+        "type": "library",
+        "name": "ace-diff",
+        "version": "4.0.0",
+        "purl": "pkg:npm/ace-diff@4.0.0",
+        "bom-ref": "npm/ace-diff@4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "bootstrap",
+        "version": "^5.3.8",
+        "purl": "pkg:npm/bootstrap@^5.3.8",
+        "bom-ref": "npm/bootstrap@^5.3.8"
+      },
+      {
+        "type": "library",
+        "name": "bootstrap-icons",
+        "version": "^1.13.1",
+        "purl": "pkg:npm/bootstrap-icons@^1.13.1",
+        "bom-ref": "npm/bootstrap-icons@^1.13.1"
+      },
+      {
+        "type": "library",
+        "name": "dompurify",
+        "version": "^3.4.15",
+        "purl": "pkg:npm/dompurify@^3.4.15",
+        "bom-ref": "npm/dompurify@^3.4.15"
+      },
+      {
+        "type": "library",
+        "name": "event-source-polyfill",
+        "version": "^1.0.31",
+        "purl": "pkg:npm/event-source-polyfill@^1.0.31",
+        "bom-ref": "npm/event-source-polyfill@^1.0.31"
+      },
+      {
+        "type": "library",
+        "name": "jsonpath-plus",
+        "version": "^10.4.0",
+        "purl": "pkg:npm/jsonpath-plus@^10.4.0",
+        "bom-ref": "npm/jsonpath-plus@^10.4.0"
+      },
+      {
+        "type": "library",
+        "name": "oidc-client-ts",
+        "version": "^3.5.0",
+        "purl": "pkg:npm/oidc-client-ts@^3.5.0",
+        "bom-ref": "npm/oidc-client-ts@^3.5.0"
+      },
+      {
+        "type": "library",
+        "name": "split.js",
+        "version": "^1.6.5",
+        "purl": "pkg:npm/split.js@^1.6.5",
+        "bom-ref": "npm/split.js@^1.6.5"
+      },
+      {
+        "type": "library",
+        "name": "@types/ace",
+        "version": "^0.0.52",
+        "purl": "pkg:npm/@types/ace@^0.0.52",
+        "bom-ref": "npm/@types/ace@^0.0.52"
+      },
+      {
+        "type": "library",
+        "name": "@types/jest",
+        "version": "^30.0.0",
+        "purl": "pkg:npm/@types/jest@^30.0.0",
+        "bom-ref": "npm/@types/jest@^30.0.0"
+      },
+      {
+        "type": "library",
+        "name": "esbuild",
+        "version": "^0.28.2",
+        "purl": "pkg:npm/esbuild@^0.28.2",
+        "bom-ref": "npm/esbuild@^0.28.2"
+      },
+      {
+        "type": "library",
+        "name": "esbuild-sass-plugin",
+        "version": "^3.7.0",
+        "purl": "pkg:npm/esbuild-sass-plugin@^3.7.0",
+        "bom-ref": "npm/esbuild-sass-plugin@^3.7.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^10.10.0",
+        "purl": "pkg:npm/eslint@^10.10.0",
+        "bom-ref": "npm/eslint@^10.10.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-google",
+        "version": "^0.14.0",
+        "purl": "pkg:npm/eslint-config-google@^0.14.0",
+        "bom-ref": "npm/eslint-config-google@^0.14.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-n",
+        "version": "^18.3.0",
+        "purl": "pkg:npm/eslint-plugin-n@^18.3.0",
+        "bom-ref": "npm/eslint-plugin-n@^18.3.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-promise",
+        "version": "^7.3.0",
+        "purl": "pkg:npm/eslint-plugin-promise@^7.3.0",
+        "bom-ref": "npm/eslint-plugin-promise@^7.3.0"
+      },
+      {
+        "type": "library",
+        "name": "jest",
+        "version": "^30.5.1",
+        "purl": "pkg:npm/jest@^30.5.1",
+        "bom-ref": "npm/jest@^30.5.1"
+      },
+      {
+        "type": "library",
+        "name": "jest-util",
+        "version": "^30.5.1",
+        "purl": "pkg:npm/jest-util@^30.5.1",
+        "bom-ref": "npm/jest-util@^30.5.1"
+      },
+      {
+        "type": "library",
+        "name": "ts-jest",
+        "version": "^29.4.12",
+        "purl": "pkg:npm/ts-jest@^29.4.12",
+        "bom-ref": "npm/ts-jest@^29.4.12"
+      },
+      {
+        "type": "library",
+        "name": "ts-node",
+        "version": "^10.9.2",
+        "purl": "pkg:npm/ts-node@^10.9.2",
+        "bom-ref": "npm/ts-node@^10.9.2"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^6.0.3",
+        "purl": "pkg:npm/typescript@^6.0.3",
+        "bom-ref": "npm/typescript@^6.0.3"
+      },
+      {
+        "type": "library",
+        "name": "swagger-cli",
+        "version": "^4.0.4",
+        "purl": "pkg:npm/swagger-cli@^4.0.4",
+        "bom-ref": "npm/swagger-cli@^4.0.4"
+      },
+      {
+        "type": "library",
+        "name": "@eclipse-ditto/ditto-javascript-client-node",
+        "version": "^3.9.0-M1.1",
+        "purl": "pkg:npm/@eclipse-ditto/ditto-javascript-client-node@^3.9.0-M1.1",
+        "bom-ref": "npm/@eclipse-ditto/ditto-javascript-client-node@^3.9.0-M1.1"
+      },
+      {
+        "type": "library",
+        "name": "artillery",
+        "version": "^2.0.27",
+        "purl": "pkg:npm/artillery@^2.0.27",
+        "bom-ref": "npm/artillery@^2.0.27"
+      },
+      {
+        "type": "library",
+        "name": "defu",
+        "version": "^6.1.5",
+        "purl": "pkg:npm/defu@^6.1.5",
+        "bom-ref": "npm/defu@^6.1.5"
+      },
+      {
+        "type": "library",
+        "name": "kafkajs",
+        "version": "^2.2.4",
+        "purl": "pkg:npm/kafkajs@^2.2.4",
+        "bom-ref": "npm/kafkajs@^2.2.4"
+      },
+      {
+        "type": "library",
+        "name": "yaml",
+        "version": "^2.8.3",
+        "purl": "pkg:npm/yaml@^2.8.3",
+        "bom-ref": "npm/yaml@^2.8.3"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^20.0.0",
+        "purl": "pkg:npm/@types/node@^20.0.0",
+        "bom-ref": "npm/@types/node@^20.0.0"
+      }
+    ]
+  },
+  "elapsed_seconds": 539.2
+}

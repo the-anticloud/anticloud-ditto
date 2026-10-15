@@ -1,0 +1,256 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:dc9bb2c6-0db1-55e7-956d-ce5df2d1bd1d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T07:50:29Z",
+    "component": {
+      "type": "application",
+      "name": "DITTO",
+      "version": "0edf69f2e0c0",
+      "bom-ref": "pkg:generic/anticloud/DITTO@0edf69f2e0c0",
+      "purl": "pkg:generic/anticloud/DITTO@0edf69f2e0c0",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "0edf69f2e0c00bffacebefa1c4327494edc44ece"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/eclipse/ditto"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@popperjs/core",
+      "version": "^2.11.8",
+      "purl": "pkg:npm/@popperjs/core@^2.11.8",
+      "bom-ref": "npm/@popperjs/core@^2.11.8"
+    },
+    {
+      "type": "library",
+      "name": "@tarekraafat/autocomplete.js",
+      "version": "^10.2.10",
+      "purl": "pkg:npm/@tarekraafat/autocomplete.js@^10.2.10",
+      "bom-ref": "npm/@tarekraafat/autocomplete.js@^10.2.10"
+    },
+    {
+      "type": "library",
+      "name": "ace-builds",
+      "version": "^1.44.0",
+      "purl": "pkg:npm/ace-builds@^1.44.0",
+      "bom-ref": "npm/ace-builds@^1.44.0"
+    },
+    {
+      "type": "library",
+      "name": "ace-diff",
+      "version": "4.0.0",
+      "purl": "pkg:npm/ace-diff@4.0.0",
+      "bom-ref": "npm/ace-diff@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap",
+      "version": "^5.3.8",
+      "purl": "pkg:npm/bootstrap@^5.3.8",
+      "bom-ref": "npm/bootstrap@^5.3.8"
+    },
+    {
+      "type": "library",
+      "name": "bootstrap-icons",
+      "version": "^1.13.1",
+      "purl": "pkg:npm/bootstrap-icons@^1.13.1",
+      "bom-ref": "npm/bootstrap-icons@^1.13.1"
+    },
+    {
+      "type": "library",
+      "name": "dompurify",
+      "version": "^3.4.15",
+      "purl": "pkg:npm/dompurify@^3.4.15",
+      "bom-ref": "npm/dompurify@^3.4.15"
+    },
+    {
+      "type": "library",
+      "name": "event-source-polyfill",
+      "version": "^1.0.31",
+      "purl": "pkg:npm/event-source-polyfill@^1.0.31",
+      "bom-ref": "npm/event-source-polyfill@^1.0.31"
+    },
+    {
+      "type": "library",
+      "name": "jsonpath-plus",
+      "version": "^10.4.0",
+      "purl": "pkg:npm/jsonpath-plus@^10.4.0",
+      "bom-ref": "npm/jsonpath-plus@^10.4.0"
+    },
+    {
+      "type": "library",
+      "name": "oidc-client-ts",
+      "version": "^3.5.0",
+      "purl": "pkg:npm/oidc-client-ts@^3.5.0",
+      "bom-ref": "npm/oidc-client-ts@^3.5.0"
+    },
+    {
+      "type": "library",
+      "name": "split.js",
+      "version": "^1.6.5",
+      "purl": "pkg:npm/split.js@^1.6.5",
+      "bom-ref": "npm/split.js@^1.6.5"
+    },
+    {
+      "type": "library",
+      "name": "@types/ace",
+      "version": "^0.0.52",
+      "purl": "pkg:npm/@types/ace@^0.0.52",
+      "bom-ref": "npm/@types/ace@^0.0.52"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^30.0.0",
+      "purl": "pkg:npm/@types/jest@^30.0.0",
+      "bom-ref": "npm/@types/jest@^30.0.0"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.28.2",
+      "purl": "pkg:npm/esbuild@^0.28.2",
+      "bom-ref": "npm/esbuild@^0.28.2"
+    },
+    {
+      "type": "library",
+      "name": "esbuild-sass-plugin",
+      "version": "^3.7.0",
+      "purl": "pkg:npm/esbuild-sass-plugin@^3.7.0",
+      "bom-ref": "npm/esbuild-sass-plugin@^3.7.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^10.10.0",
+      "purl": "pkg:npm/eslint@^10.10.0",
+      "bom-ref": "npm/eslint@^10.10.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-google",
+      "version": "^0.14.0",
+      "purl": "pkg:npm/eslint-config-google@^0.14.0",
+      "bom-ref": "npm/eslint-config-google@^0.14.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-n",
+      "version": "^18.3.0",
+      "purl": "pkg:npm/eslint-plugin-n@^18.3.0",
+      "bom-ref": "npm/eslint-plugin-n@^18.3.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-promise",
+      "version": "^7.3.0",
+      "purl": "pkg:npm/eslint-plugin-promise@^7.3.0",
+      "bom-ref": "npm/eslint-plugin-promise@^7.3.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^30.5.1",
+      "purl": "pkg:npm/jest@^30.5.1",
+      "bom-ref": "npm/jest@^30.5.1"
+    },
+    {
+      "type": "library",
+      "name": "jest-util",
+      "version": "^30.5.1",
+      "purl": "pkg:npm/jest-util@^30.5.1",
+      "bom-ref": "npm/jest-util@^30.5.1"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.4.12",
+      "purl": "pkg:npm/ts-jest@^29.4.12",
+      "bom-ref": "npm/ts-jest@^29.4.12"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^10.9.2",
+      "purl": "pkg:npm/ts-node@^10.9.2",
+      "bom-ref": "npm/ts-node@^10.9.2"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^6.0.3",
+      "purl": "pkg:npm/typescript@^6.0.3",
+      "bom-ref": "npm/typescript@^6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "swagger-cli",
+      "version": "^4.0.4",
+      "purl": "pkg:npm/swagger-cli@^4.0.4",
+      "bom-ref": "npm/swagger-cli@^4.0.4"
+    },
+    {
+      "type": "library",
+      "name": "@eclipse-ditto/ditto-javascript-client-node",
+      "version": "^3.9.0-M1.1",
+      "purl": "pkg:npm/@eclipse-ditto/ditto-javascript-client-node@^3.9.0-M1.1",
+      "bom-ref": "npm/@eclipse-ditto/ditto-javascript-client-node@^3.9.0-M1.1"
+    },
+    {
+      "type": "library",
+      "name": "artillery",
+      "version": "^2.0.27",
+      "purl": "pkg:npm/artillery@^2.0.27",
+      "bom-ref": "npm/artillery@^2.0.27"
+    },
+    {
+      "type": "library",
+      "name": "defu",
+      "version": "^6.1.5",
+      "purl": "pkg:npm/defu@^6.1.5",
+      "bom-ref": "npm/defu@^6.1.5"
+    },
+    {
+      "type": "library",
+      "name": "kafkajs",
+      "version": "^2.2.4",
+      "purl": "pkg:npm/kafkajs@^2.2.4",
+      "bom-ref": "npm/kafkajs@^2.2.4"
+    },
+    {
+      "type": "library",
+      "name": "yaml",
+      "version": "^2.8.3",
+      "purl": "pkg:npm/yaml@^2.8.3",
+      "bom-ref": "npm/yaml@^2.8.3"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^20.0.0",
+      "purl": "pkg:npm/@types/node@^20.0.0",
+      "bom-ref": "npm/@types/node@^20.0.0"
+    }
+  ]
+}
