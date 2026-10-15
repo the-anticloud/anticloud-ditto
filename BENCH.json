@@ -540,9 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "fe89657bbaad3bf25fa3571288287022f12a8347",
-   "url": "https://github.com/dittofeed/dittofeed",
-   "sha_verified_from": "agent_alternatives2.json/alternative_found | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/sabrogden/Ditto",
+   "head": "a80fd3536bc407cac8cce43b5682022282ace983",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/dittofeed/dittofeed"
   }
  }
 }

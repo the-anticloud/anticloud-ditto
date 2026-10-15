@@ -1,14 +1,12 @@
 # DITTO
 
-> Open-source customer engagement Start Cloud Trial | Docs | Discord | Contributing
+> [Help/Wiki](https://github.com/sabrogden/Ditto/wiki)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Forums](https://github.com/sabrogden/Ditto/issues)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Donate](https://www.paypal.com/donate/?item_name=Donation+to+Ditto&cmd=_donations&business=sabrogden%40gmail.com&Z3JncnB0=)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Beta](https://ditto-cp.sourceforge.io/beta/)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Source](https://github.com/sabrogden/Ditto)&nbsp; &nbsp
 
-**Category:** FACTORY_MANUFACTURING · **Ecosystem:** python · **Vendored upstream:** https://github.com/dittofeed/dittofeed · **Pinned commit:** `fe89657bbaad3bf25fa3571288287022f12a8347` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/dittofeed/dittofeed` as the implementation for the `DITTO` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** FACTORY_MANUFACTURING · **Ecosystem:** python · **Vendored upstream:** https://github.com/sabrogden/Ditto · **Pinned commit:** `a80fd3536bc407cac8cce43b5682022282ace983` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-Open-source customer engagement Start Cloud Trial | Docs | Discord | Contributing
+[Help/Wiki](https://github.com/sabrogden/Ditto/wiki)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Forums](https://github.com/sabrogden/Ditto/issues)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Donate](https://www.paypal.com/donate/?item_name=Donation+to+Ditto&cmd=_donations&business=sabrogden%40gmail.com&Z3JncnB0=)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Beta](https://ditto-cp.sourceforge.io/beta/)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[Source](https://github.com/sabrogden/Ditto)&nbsp; &nbsp
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -21,7 +19,10 @@ pip install -e .
 
 ## Usage
 
-See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
+1. Run Ditto
+2. Copy things to the clipboard, e.g. using Ctrl-C with text selected in a text editor.
+3. Open Ditto by clicking its icon in the system tray or by pressing its Hot Key which defaults to Ctrl + ` – i.e. hold down Ctrl and press the back-quote (tilde ~) key.
+4. Double click or press enter on the item to paste it to the previous window.
 
 ## Anticloud Overlay
 
@@ -63,7 +64,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-b10c0e43542d7b7abaa461117eedd464f60f5f354be77f7b69ceb64f0bba2c89
+8c418be406708315d642a7f1c348788bd152119489ab8ce7e2e3c992f0bf23b7
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
